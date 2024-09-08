@@ -31,11 +31,14 @@ R.E.B.E.C.C.A is a cutting-edge project aimed at analyzing chromosomal images to
 
 ## Flowchart
 
-![Flowchart] "D:\BioMorph AI\mark_1\images\0.png"
+![Flowchart] (images/0.png)
 
 ## Results
 
-![Results] "D:\BioMorph AI\mark_1\images\1.png"
+![Results] (images/1.png)
+![Results] (images/2.png)
+![Results] (images/3.png)
+![Results] (images/4.png)
 
 ## Application Deployment
 
