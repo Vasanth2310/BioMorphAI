@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+</head>
+<body>
+    <h1>Processing Results</h1>
+
+    <!-- Display the result image -->
+    <h2>Result Image</h2>
+    <img src="/results/{{ result_image }}" alt="Result Image" style="max-width: 100%; height: auto;">
+
+    <!-- Display the bar chart -->
+    <h2>Category Count Bar Chart</h2>
+    <img src="/results/{{ bar_chart }}" alt="Bar Chart" style="max-width: 100%; height: auto;">
+
+    <!-- Display detected chromosomal disorders -->
+    <h2>Chromosomal Disorders</h2>
+    <ul>
+        {% if disorders %}
+            {% for disorder in disorders %}
+                <li>{{ disorder }}</li>
+            {% endfor %}
+        {% else %}
+            <li>No chromosomal disorders detected</li>
+        {% endif %}
+    </ul>
+
+    <!-- Link to go back to the upload page -->
+    <a href="/">Go Back</a>
+</body>
+</html>
