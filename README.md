@@ -47,7 +47,7 @@ The application is deployed as a React app. Here are the steps to set it up:
 1. **Clone the Repository**  
    ```bash
    git clone https://github.com/your-repo-url.git
-   cd rebecca-project
+   cd react-frontend
    ```
 
 2. **Install Dependencies**  
